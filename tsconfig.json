@@ -16,16 +16,18 @@
     "incremental": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./src/*"]
+      "~/*": [
+        "./src/*"
+      ]
     },
     "declaration": true,
     "outDir": "./build"
   },
   "include": [
-    ".eslintrc.cjs",
-    "**/*.ts",
-    "**/*.cjs",
-    "**/*.js",
+    "src/**/*.ts",
+    "src/**/*.js",
   ],
-  "exclude": ["node_modules"],
+  "exclude": [
+    "node_modules"
+  ]
 }

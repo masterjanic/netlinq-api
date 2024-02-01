@@ -4,6 +4,7 @@ const config = {
   parserOptions: {
     project: true,
   },
+  ignorePatterns: ["node_modules/", "build/"],
   plugins: ["@typescript-eslint"],
   extends: [
     "plugin:@typescript-eslint/recommended-type-checked",
