@@ -1,14 +1,9 @@
+import { type Ipv6AddressResponse } from "~/types/ipv6/address";
+
 export interface Ipv6AllocationResponse {
   id: number;
   ip: string;
-  subnet6: {
-    network: string;
-    cidr: number;
-    vlan_tag: number;
-    gateway: string;
-    broadcast: null;
-    tags: string[];
-  };
+  subnet6: Ipv6AddressResponse["subnet6"];
   free: boolean;
   used_by: {
     id: number;

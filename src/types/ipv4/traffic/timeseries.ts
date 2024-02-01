@@ -14,6 +14,12 @@ export type GetIpv4TrafficTimeseriesBySubnetResponse =
 
 export interface GetIpv4TrafficTimeseriesByIpRequest
   extends OptionalTrafficRequest {
+  /**
+   * The IPv4 address to get the traffic data for.
+   * Must follow the IPv4 address format.
+   *
+   * @example 192.168.1.1
+   */
   ip: string;
 }
 

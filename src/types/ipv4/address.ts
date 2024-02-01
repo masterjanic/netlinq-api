@@ -14,19 +14,78 @@ export interface GetIpv4AdressByIpRequest extends OptionalTrafficRequest {
 }
 
 export interface Ipv4AddressResponse {
+  /**
+   * The internal id of the IPv4 address.
+   */
   id: number;
+  /**
+   * The IPv4 address of this data.
+   * Follows the IPv4 address format.
+   *
+   * @example 192.168.0.1
+   */
   ip: string;
+  /**
+   * The subnet of this IPv4 address.
+   */
   subnet: {
+    /**
+     * The network part of this IPv4 subnet.
+     *
+     * @example 192.168.0.0
+     */
     network: string;
+    /**
+     * The CIDR of this IPv4 subnet.
+     *
+     * @example 24
+     */
     cidr: number;
+    /**
+     * The dotted decimal representation of the IPv4 subnet.
+     *
+     * @example 255.255.0.0
+     */
     dotted_decimal: string;
+    /**
+     * The VLAN number assigned to the IPv4 subnet.
+     *
+     * @example 252
+     */
     vlan_tag: number;
+    /**
+     * The gateway of the IPv4 subnet.
+     *
+     * @example 192.168.0.1
+     */
     gateway: string;
+    /**
+     * The broadcast address of the IPv4 subnet.
+     *
+     * @example 192.168.0.2
+     */
     broadcast: string;
+    /**
+     * The tags assigned to the IPv4 subnet.
+     *
+     * @example ["my-first-tag", "my-second-tag"]
+     */
     tags: string[];
   };
+  /**
+   * Whether the IPv4 address is free or not.
+   *
+   * @example 1 - Free
+   * @example 0 - Not free
+   */
   free: 1 | 0;
+  /**
+   * The allocation that uses this IPv4 address.
+   */
   used_by: {
+    /**
+     * The internal id of the allocation that uses this IPv4 address.
+     */
     id: number;
     created_at: string;
     updated_at: string | null;

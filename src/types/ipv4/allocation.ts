@@ -1,15 +1,9 @@
+import { type Ipv4AddressResponse } from "~/types/ipv4/address";
+
 export interface Ipv4AllocationResponse {
   id: number;
   ip: string;
-  subnet: {
-    network: string;
-    cidr: number;
-    dotted_decimal: string;
-    vlan_tag: number;
-    gateway: string;
-    broadcast: string;
-    tags: string[];
-  };
+  subnet: Ipv4AddressResponse["subnet"];
   free: boolean;
   used_by: {
     id: number;
