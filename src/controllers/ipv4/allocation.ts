@@ -1,4 +1,4 @@
-import NetlinqRequest from "@/lib/netlinq-request";
+import NetlinqRequest from "../../lib/netlinq-request";
 import {
   type DeleteUnassignIpv4AllocationByExternalTypeAndIdRequest,
   type DeleteUnassignIpv4AllocationByExternalTypeAndIdResponse,
@@ -10,7 +10,7 @@ import {
   type PostAssignIpv4AllocationByIpResponse,
   type PostAssignIpv4AllocationByTagRequest,
   type PostAssignIpv4AllocationByTagResponse,
-} from "@/types/ipv4/allocation";
+} from "../../types/ipv4/allocation";
 
 export default class Ipv4AllocationController {
   /**

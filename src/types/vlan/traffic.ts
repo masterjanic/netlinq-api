@@ -1,4 +1,4 @@
-import { type OptionalVlanTrafficRequest } from "@/types/common";
+import { type OptionalVlanTrafficRequest } from "../common";
 
 export interface GetVlanTrafficSumRequest extends OptionalVlanTrafficRequest {
   vlan_id: number;

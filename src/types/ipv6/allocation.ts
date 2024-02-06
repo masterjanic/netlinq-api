@@ -1,4 +1,4 @@
-import { type Ipv6AddressResponse } from "@/types/ipv6/address";
+import { type Ipv6AddressResponse } from "./address";
 
 export interface Ipv6AllocationResponse {
   id: number;

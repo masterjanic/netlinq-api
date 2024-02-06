@@ -1,5 +1,5 @@
-import NetlinqRequest from "@/lib/netlinq-request";
-import { type GetSubnetsPlaintextResponse } from "@/types/ipv4/subnet";
+import NetlinqRequest from "../../lib/netlinq-request";
+import { type GetSubnetsPlaintextResponse } from "../../types/ipv4/subnet";
 
 export default class Ipv4SubnetController {
   /**

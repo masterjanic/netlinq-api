@@ -15,11 +15,6 @@
     "moduleResolution": "Node",
     "incremental": false,
     "baseUrl": ".",
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    },
     "declaration": true,
     "outDir": "./build"
   },

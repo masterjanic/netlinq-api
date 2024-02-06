@@ -1,7 +1,7 @@
-import Ipv6AdressController from "@/controllers/ipv6/address";
-import Ipv6AllocationController from "@/controllers/ipv6/allocation";
-import Ipv6SubnetController from "@/controllers/ipv6/subnet";
-import Ipv6TrafficController from "@/controllers/ipv6/traffic";
+import Ipv6AdressController from "./address";
+import Ipv6AllocationController from "./allocation";
+import Ipv6SubnetController from "./subnet";
+import Ipv6TrafficController from "./traffic";
 
 export default class Ipv6Controller {
   /**

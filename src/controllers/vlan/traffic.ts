@@ -1,4 +1,4 @@
-import NetlinqRequest from "@/lib/netlinq-request";
+import NetlinqRequest from "../../lib/netlinq-request";
 import {
   type GetVlanTraffic95thPercentileRequest,
   type GetVlanTraffic95thPercentileResponse,
@@ -6,7 +6,7 @@ import {
   type GetVlanTrafficSumResponse,
   type GetVlanTrafficTimeseriesRequest,
   type GetVlanTrafficTimeseriesResponse,
-} from "@/types/vlan/traffic";
+} from "../../types/vlan/traffic";
 
 // TODO: Add jsdoc
 export default class VlanTrafficController {

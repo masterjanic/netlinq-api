@@ -1,4 +1,4 @@
-import NetlinqRequest from "@/lib/netlinq-request";
+import NetlinqRequest from "../../lib/netlinq-request";
 import {
   type GetIpv4AdressByIpRequest,
   type GetIpv4AdressByIpResponse,
@@ -11,7 +11,7 @@ import {
   type GetIpv4ByExternalTypeAndIdResponseWithTraffic,
   type GetIpv4HistoryRequest,
   type GetIpv4HistoryResponse,
-} from "@/types/ipv4/address";
+} from "../../types/ipv4/address";
 
 export default class Ipv4AdressController {
   /**

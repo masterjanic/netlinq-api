@@ -1,8 +1,8 @@
-import NetlinqRequest from "@/lib/netlinq-request";
-import type {
-  PostReverseDnsIpv4ByIpRequest,
-  PostReverseDnsIpv4ByIpResponse,
-} from "@/types/reverse-dns/ipv4";
+import NetlinqRequest from "../../lib/netlinq-request";
+import {
+  type PostReverseDnsIpv4ByIpRequest,
+  type PostReverseDnsIpv4ByIpResponse,
+} from "../../types/reverse-dns/ipv4";
 
 export default class ReverseDnsIpv4Controller {
   /**

@@ -1,6 +1,6 @@
-import VlanTrafficController from "@/controllers/vlan/traffic";
-import NetlinqRequest from "@/lib/netlinq-request";
-import { type GetVlansResponse } from "@/types/vlan";
+import NetlinqRequest from "../../lib/netlinq-request";
+import { type GetVlansResponse } from "../../types/vlan";
+import VlanTrafficController from "./traffic";
 
 export default class VlanController {
   /**

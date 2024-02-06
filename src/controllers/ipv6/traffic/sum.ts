@@ -1,4 +1,4 @@
-import NetlinqRequest from "@/lib/netlinq-request";
+import NetlinqRequest from "../../../lib/netlinq-request";
 import {
   type GetIpv6TrafficSumByIpRequest,
   type GetIpv6TrafficSumByIpResponse,
@@ -6,7 +6,7 @@ import {
   type GetIpv6TrafficSumBySubnetResponse,
   type GetIpv6TrafficSumByTagRequest,
   type GetIpv6TrafficSumByTagResponse,
-} from "@/types/ipv6/traffic/sum";
+} from "../../../types/ipv6/traffic/sum";
 
 // TODO: Add jsdoc
 export default class Ipv6TrafficSumController {

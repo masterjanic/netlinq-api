@@ -1,7 +1,4 @@
-import {
-  type OptionalTrafficRequest,
-  type TrafficResponse,
-} from "@/types/common";
+import { type OptionalTrafficRequest, type TrafficResponse } from "../common";
 
 export interface GetIpv4AdressByIpRequest extends OptionalTrafficRequest {
   /**

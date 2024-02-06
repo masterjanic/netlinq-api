@@ -1,4 +1,4 @@
-import NetlinqRequest from "@/lib/netlinq-request";
+import NetlinqRequest from "../../../lib/netlinq-request";
 import {
   type GetIpv4TrafficTimeseriesByIpRequest,
   type GetIpv4TrafficTimeseriesByIpResponse,
@@ -6,7 +6,7 @@ import {
   type GetIpv4TrafficTimeseriesBySubnetResponse,
   type GetIpv4TrafficTimeseriesByTagRequest,
   type GetIpv4TrafficTimeseriesByTagResponse,
-} from "@/types/ipv4/traffic/timeseries";
+} from "../../../types/ipv4/traffic/timeseries";
 
 // TODO: Add jsdoc
 export default class Ipv4TrafficTimeseriesController {

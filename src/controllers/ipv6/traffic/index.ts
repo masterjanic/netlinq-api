@@ -1,5 +1,5 @@
-import Ipv6TrafficSumController from "@/controllers/ipv4/traffic/sum";
-import Ipv6TrafficTimeseriesController from "@/controllers/ipv4/traffic/timeseries";
+import Ipv6TrafficSumController from "./sum";
+import Ipv6TrafficTimeseriesController from "./timeseries";
 
 export default class Ipv6TrafficController {
   /**

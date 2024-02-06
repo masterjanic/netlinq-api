@@ -1,5 +1,5 @@
-import Ipv4TrafficSumController from "@/controllers/ipv4/traffic/sum";
-import Ipv4TrafficTimeseriesController from "@/controllers/ipv4/traffic/timeseries";
+import Ipv4TrafficSumController from "./sum";
+import Ipv4TrafficTimeseriesController from "./timeseries";
 
 export default class Ipv4TrafficController {
   /**

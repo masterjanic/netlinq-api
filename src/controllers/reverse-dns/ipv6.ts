@@ -1,8 +1,8 @@
-import NetlinqRequest from "@/lib/netlinq-request";
+import NetlinqRequest from "../../lib/netlinq-request";
 import {
   type PostReverseDnsIpv6ByIpRequest,
   type PostReverseDnsIpv6ByIpResponse,
-} from "@/types/reverse-dns/ipv6";
+} from "../../types/reverse-dns/ipv6";
 
 export default class ReverseDnsIpv6Controller {
   /**
