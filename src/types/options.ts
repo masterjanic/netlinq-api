@@ -7,7 +7,7 @@ export default interface Options {
   /**
    * The base url to use for requests.
    *
-   * @default https://synlinq.de/api/v1
+   * @default https://netlinq.de/api/v1
    */
   host?: string;
 }
