@@ -26,7 +26,7 @@ export default class NetlinqRequest {
         baseURL: this.host,
         params: {
           ...config.params,
-          apiKey: this.apiKey,
+          api_token: this.apiKey,
         } as Record<string, string>,
         headers: {
           ...config.headers,
