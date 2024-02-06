@@ -1,7 +1,7 @@
 import {
   type OptionalTrafficRequest,
   type TrafficSumResponse,
-} from "~/types/common";
+} from "@/types/common";
 
 export interface GetIpv6TrafficSumBySubnetRequest
   extends OptionalTrafficRequest {

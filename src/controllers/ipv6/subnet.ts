@@ -1,5 +1,5 @@
-import NetlinqRequest from "~/lib/netlinq-request";
-import { type GetSubnets6PlaintextResponse } from "~/types/ipv6/subnet";
+import NetlinqRequest from "@/lib/netlinq-request";
+import { type GetSubnets6PlaintextResponse } from "@/types/ipv6/subnet";
 
 export default class Ipv6SubnetController {
   /**

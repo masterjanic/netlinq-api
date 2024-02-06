@@ -1,4 +1,4 @@
-import NetlinqRequest from "~/lib/netlinq-request";
+import NetlinqRequest from "@/lib/netlinq-request";
 import {
   type GetIpv6AdressByIpRequest,
   type GetIpv6AdressByIpResponse,
@@ -6,7 +6,7 @@ import {
   type GetIpv6ByExternalTypeAndIdResponse,
   type GetIpv6HistoryRequest,
   type GetIpv6HistoryResponse,
-} from "~/types/ipv6/address";
+} from "@/types/ipv6/address";
 
 export default class Ipv6AdressController {
   /**

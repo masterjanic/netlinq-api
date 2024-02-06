@@ -1,7 +1,7 @@
 import {
   type OptionalTrafficRequest,
   type TrafficTimeseriesResponse,
-} from "~/types/common";
+} from "@/types/common";
 
 export interface GetIpv4TrafficTimeseriesBySubnetRequest
   extends OptionalTrafficRequest {

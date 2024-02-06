@@ -1,4 +1,4 @@
-import NetlinqRequest from "~/lib/netlinq-request";
+import NetlinqRequest from "@/lib/netlinq-request";
 import {
   type GetIpv4TrafficSumByIpRequest,
   type GetIpv4TrafficSumByIpResponse,
@@ -6,7 +6,7 @@ import {
   type GetIpv4TrafficSumBySubnetResponse,
   type GetIpv4TrafficSumByTagRequest,
   type GetIpv4TrafficSumByTagResponse,
-} from "~/types/ipv4/traffic/sum";
+} from "@/types/ipv4/traffic/sum";
 
 // TODO: Add jsdoc
 export default class Ipv4TrafficSumController {

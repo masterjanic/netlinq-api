@@ -1,12 +1,11 @@
-import axios, { AxiosError, type AxiosRequestConfig } from "axios";
-
 import {
   type InternalServerErrorResponse,
   type MethodNotAllowedResponse,
   type NotFoundResponse,
   type UnprocessableContentResponse,
-} from "~/types/errors";
-import type Options from "~/types/options";
+} from "@/types/errors";
+import type Options from "@/types/options";
+import axios, { AxiosError, type AxiosRequestConfig } from "axios";
 
 const DEFAULT_HOST = "https://netlinq.de/api/v1";
 

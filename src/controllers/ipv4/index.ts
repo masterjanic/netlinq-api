@@ -1,7 +1,7 @@
-import Ipv4AdressController from "~/controllers/ipv4/address";
-import Ipv4AllocationController from "~/controllers/ipv4/allocation";
-import Ipv4SubnetController from "~/controllers/ipv4/subnet";
-import Ipv4TrafficController from "~/controllers/ipv4/traffic";
+import Ipv4AdressController from "@/controllers/ipv4/address";
+import Ipv4AllocationController from "@/controllers/ipv4/allocation";
+import Ipv4SubnetController from "@/controllers/ipv4/subnet";
+import Ipv4TrafficController from "@/controllers/ipv4/traffic";
 
 export default class Ipv4Controller {
   /**

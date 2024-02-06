@@ -1,9 +1,9 @@
-import Ipv4Controller from "~/controllers/ipv4";
-import Ipv6Controller from "~/controllers/ipv6";
-import ReverseDnsController from "~/controllers/reverse-dns";
-import VlanController from "~/controllers/vlan";
-import NetlinqRequest from "~/lib/netlinq-request";
-import type Options from "~/types/options";
+import Ipv4Controller from "@/controllers/ipv4";
+import Ipv6Controller from "@/controllers/ipv6";
+import ReverseDnsController from "@/controllers/reverse-dns";
+import VlanController from "@/controllers/vlan";
+import NetlinqRequest from "@/lib/netlinq-request";
+import type Options from "@/types/options";
 
 export class NetlinqApi {
   private readonly options: Options;

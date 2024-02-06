@@ -1,5 +1,5 @@
-import ReverseDnsIpv4Controller from "~/controllers/reverse-dns/ipv4";
-import ReverseDnsIpv6Controller from "~/controllers/reverse-dns/ipv6";
+import ReverseDnsIpv4Controller from "@/controllers/reverse-dns/ipv4";
+import ReverseDnsIpv6Controller from "@/controllers/reverse-dns/ipv6";
 
 export default class ReverseDnsController {
   /**

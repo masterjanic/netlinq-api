@@ -16,7 +16,7 @@
     "incremental": false,
     "baseUrl": ".",
     "paths": {
-      "~/*": [
+      "@/*": [
         "./src/*"
       ]
     },
